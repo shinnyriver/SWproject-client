@@ -1,4 +1,3 @@
-// src/components/PhotoSearch.js
 import React, { useState } from 'react';
 import axios from '../axiosConfig';
 

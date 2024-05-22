@@ -1,4 +1,3 @@
-// src/components/Profile.js
 import React, { useEffect, useState } from 'react';
 import axios from '../axiosConfig';
 

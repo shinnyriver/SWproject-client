@@ -1,6 +1,6 @@
-// src/components/PhotoGallery.js
 import React, { useEffect, useState } from 'react';
 import axios from '../axiosConfig';
+import DirectMessageButton from './DirectMessageButton';
 
 function PhotoGallery() {
   const [photos, setPhotos] = useState([]);
@@ -27,6 +27,7 @@ function PhotoGallery() {
             <img src={`http://localhost:5000/${photo.image_path}`} alt={photo.description} />
             <p>{photo.description}</p>
             <p>{photo.keywords}</p>
+            <DirectMessageButton recipientId={photo.user_id} />
           </div>
         ))}
       </div>

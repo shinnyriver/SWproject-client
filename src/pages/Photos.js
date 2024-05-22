@@ -1,4 +1,3 @@
-// src/pages/Photos.js
 import React from 'react';
 import PhotoUpload from '../components/PhotoUpload';
 import PhotoGallery from '../components/PhotoGallery';

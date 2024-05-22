@@ -1,4 +1,3 @@
-// src/components/ChatList.js
 import React, { useEffect, useState } from 'react';
 import axios from '../axiosConfig';
 import { Link } from 'react-router-dom';

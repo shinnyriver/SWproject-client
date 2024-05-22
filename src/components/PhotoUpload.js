@@ -1,4 +1,3 @@
-// src/components/PhotoUpload.js
 import React, { useState } from 'react';
 import axios from '../axiosConfig';
 
@@ -20,7 +19,7 @@ function PhotoUpload() {
     formData.append('keywords', keywords);
 
     try {
-      const response = await axios.post('/photos/upload', formData, {
+      await axios.post('/photos/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
